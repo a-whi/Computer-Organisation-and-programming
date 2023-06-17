@@ -1,6 +1,6 @@
 **LAB 2**
 
-Part 3: File I/O
+Part 2: Loops
 
 Part 3: File I/O
 
@@ -10,7 +10,7 @@ Part 3: File I/O
 
 - 3.1.2 Test Cases
 
-- Create a test script test_bee.sh that compiles your program, runs it, and checks the output.
+    - Create a test script test_bee.sh that compiles your program, runs it, and checks the output.
 
 3.2 Text Modification
 
