@@ -1,4 +1,5 @@
 **LAB 7**
+
 Part 1: Write and debug a simple addition program in MIPS assembly using the MARS IDE. Save it as add_sub.asm and correct any errors.
 
 In a new file, mem_acc.asm, correct errors and explore memory access operations including loading and storing of word, halfword, and byte.
