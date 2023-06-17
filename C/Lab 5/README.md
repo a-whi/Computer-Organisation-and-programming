@@ -13,11 +13,14 @@ The array elements and their dimensions are provided through a text file passed 
 Print the sorted 2D array to the terminal.
 
 Part 2:
+
 Binary Search Trees:
 2.1 Binary Search Tree Nodes:
 - Create a binary search tree data structure (binary_search_database.c) that holds electronic components information.
+
 2.2 Binary Search Tree Functionality:
 - Write functions for different operations like insert, remove, search, print, and export components.
+
 2.3 Implementing the System Menu:
 - Implement a menu system for the user to interact with the database. The menu should provide options for the operations mentioned in 2.2.
 
