@@ -13,8 +13,8 @@ The array elements and their dimensions are provided through a text file passed 
 Print the sorted 2D array to the terminal.
 
 Part 2:
-
 Binary Search Trees:
+
 2.1 Binary Search Tree Nodes:
 - Create a binary search tree data structure (binary_search_database.c) that holds electronic components information.
 
