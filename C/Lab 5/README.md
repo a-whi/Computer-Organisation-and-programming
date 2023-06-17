@@ -1,12 +1,12 @@
 **LAB 5**
 
 Part 1:
-- 1.1 Simple Bubble Sort:
-You are to write a C program (simple_bubble_sort.c) that sorts a 1D array using the Bubble Sort algorithm.
+1.1 Simple Bubble Sort:
+- You are to write a C program (simple_bubble_sort.c) that sorts a 1D array using the Bubble Sort algorithm.
 The array elements are provided through a text file passed as a command line argument.
 Print the sorted array to the terminal.
-- 1.2 Two-dimensional Sorting:
-Write another C program (complex_bubble_sort.c) that sorts a 2D array row-wise using the Bubble Sort algorithm.
+1.2 Two-dimensional Sorting:
+- Write another C program (complex_bubble_sort.c) that sorts a 2D array row-wise using the Bubble Sort algorithm.
 The array elements and their dimensions are provided through a text file passed as a command line argument.
 Print the sorted 2D array to the terminal.
 
