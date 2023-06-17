@@ -1,0 +1,28 @@
+// Report
+// Created by: Alexander Whitfield
+// ID: 32541767
+Task:
+You are required to write a maximum 500 word short report (to be submitted in src/report.txt) discussing the merits of the search algorithm you choose to use, and comparing it to one other search algorithm discussed in this unit. Resources referred to from outside the unit must be referenced.
+
+The search algorithm I used in task 3 was a binary search algorithm. I used binary search because it has a 
+time complexity of O(log(N)), this means that the algorithm doesn't have to search all values since it starts 
+in the middle and repeatedly reduces the number of elements it can pick from until it finds its target.
+
+Compared to linear search, another searching algorithm we learnt about, binary search is faster, especially 
+with larger arrays. The linear search goes through the array element by element till it finds its desired 
+target this gives it a time complexity of O(N), which isn't bad for smaller arrays, but the array in task 
+3 was large and would have taken longer to find the desired target.
+
+A limitation of using binary search over linear search is that binary search only works with sorted arrays 
+which meant I had to sort the array to get it to work. This is because binary search divides the array in 
+two each time and if it isn't sorted it's hard to determine which half of the array to search next. I did 
+this by first using quicksort in the second task to sort the array by its hash values, this worked as 
+quicksort doesn't require much memory so it keeps the memory consumption of the task within the specification.
+I also did this in the second task as there was no time constraint for the task meaning my task 3 ran faster
+overall as quicksort has a worst case of O(N^2). 
+I did have to sort the array again though for mean but as I had already sorted once in the previous task it 
+didn't add much time to the program for comparing the transformed images.
+
+I used geeksforgeeks to help me create the binary search and the quicksort. I believe the pseudo code from 
+them and what was provided in the unit are very similar/the same. I did modify my binary search code though 
+so it only used one function and worked for both hash values and mean values. 

@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/../outputs/${fileBasenameNoExtension}",
+            // Arguments for Database (uncomment to use instead of search)
+            // "args": ["../data/dataset_a/known"],
+            // Arguments for Search (comment to use database instead)
+            "args": ["../data/dataset_a/unknown_no_transform", "../outputs/database.tsv"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Build"
+        }
+    ],
+    "version": "2.0.0"
+}

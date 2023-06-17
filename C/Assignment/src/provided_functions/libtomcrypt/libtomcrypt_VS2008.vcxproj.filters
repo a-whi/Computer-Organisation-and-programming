@@ -1,0 +1,1782 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ciphers">
+      <UniqueIdentifier>{60327e41-7087-4796-a92c-677ffcdcddac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ciphers\aes">
+      <UniqueIdentifier>{3b2e8b22-cfb6-4b4b-a439-6c8b374990f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ciphers\safer">
+      <UniqueIdentifier>{936835d8-a15f-4120-a0ac-a25f065c4633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ciphers\twofish">
+      <UniqueIdentifier>{a0a5db60-26fa-4aa0-a1e2-b5e9ec3b2a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encauth">
+      <UniqueIdentifier>{f5437949-edf4-4f53-90da-2edfacd3d240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encauth\ccm">
+      <UniqueIdentifier>{23784d50-f050-4b4b-af47-cdf5f69188c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encauth\chachapoly">
+      <UniqueIdentifier>{d5fbd64a-d1d8-42c3-a87d-0b81c62413e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encauth\eax">
+      <UniqueIdentifier>{27a9baca-8dc7-4c7e-8b03-5851fdb6fc4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encauth\gcm">
+      <UniqueIdentifier>{d2b3a578-49e9-41bc-afe7-e7e23b761e49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encauth\ocb">
+      <UniqueIdentifier>{70a866c3-6d01-4a6b-bb0d-6243ae042807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encauth\ocb3">
+      <UniqueIdentifier>{9a11b673-cf4d-4d77-a068-8f0db1769986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hashes">
+      <UniqueIdentifier>{1236645a-a304-4e7c-afb7-ff6aa7d96b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hashes\chc">
+      <UniqueIdentifier>{76d2489b-5650-4ed0-b5e2-d56ebc085366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hashes\helper">
+      <UniqueIdentifier>{c81a844d-5993-4c2c-a62d-f1b27bf300c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hashes\sha2">
+      <UniqueIdentifier>{f7fb3c7d-62fd-4fba-9518-ccb27e3f0815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hashes\whirl">
+      <UniqueIdentifier>{0790f7c1-4afa-41a2-8e34-bac88973dbca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{57f07cb6-5516-4544-ad53-fa9b688465f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mac">
+      <UniqueIdentifier>{55ad817b-3266-4f43-a9e0-9fc0b080878b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mac\blake2">
+      <UniqueIdentifier>{31156cba-36fd-48ee-a0f4-190f73bd747e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mac\f9">
+      <UniqueIdentifier>{44566424-afd2-48c6-98a1-a1bdaa606692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mac\hmac">
+      <UniqueIdentifier>{1b2f002e-fc47-4a20-bb4b-1b943ddf39c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mac\omac">
+      <UniqueIdentifier>{1e7ec26a-51ed-46b7-8f66-f91aa872179c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mac\pelican">
+      <UniqueIdentifier>{60d6754b-721e-49a0-b3d1-a25e3a359f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mac\pmac">
+      <UniqueIdentifier>{b810c856-d183-4b85-a5d7-9059b5295540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mac\poly1305">
+      <UniqueIdentifier>{a3411b48-1f06-45b9-b7e2-850b50d1bd08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mac\xcbc">
+      <UniqueIdentifier>{cf08ec98-3b68-4fd5-8192-3488a5a59765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{b6f7ef71-213e-42aa-886d-06984d17095f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math\fp">
+      <UniqueIdentifier>{9f2dcb99-23ff-47b4-9e6c-1f9686722e70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc">
+      <UniqueIdentifier>{4323b34b-1371-46ab-95a4-65cd900d2486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc\base16">
+      <UniqueIdentifier>{091be985-0af1-4230-881c-394c23299756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc\base32">
+      <UniqueIdentifier>{5b94104d-de97-40f6-8036-901db056eb21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc\base64">
+      <UniqueIdentifier>{1ea3a148-8432-48ae-a572-934327059b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc\bcrypt">
+      <UniqueIdentifier>{c4a2e86c-f0e5-450e-bfa8-44b8d76f4d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc\crypt">
+      <UniqueIdentifier>{e6fae3cd-b415-4c41-822f-f9de94becd0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc\hkdf">
+      <UniqueIdentifier>{50c791fa-4c5f-469f-8403-85e082928e02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc\padding">
+      <UniqueIdentifier>{c638a913-ed2c-4377-9e7f-2b6d3bed0860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc\pbes">
+      <UniqueIdentifier>{ea8f7e2b-f898-4ac5-882e-ba83c712024d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc\pkcs12">
+      <UniqueIdentifier>{564b1e76-7d60-4b98-80c0-0dfec9aafa87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc\pkcs5">
+      <UniqueIdentifier>{41462f5a-9132-467c-9a4b-69d0622b6102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc\ssh">
+      <UniqueIdentifier>{646124a7-ace5-4a7e-a368-92f3d30733c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modes">
+      <UniqueIdentifier>{537cd643-b3e3-47f7-bc22-355f344b61aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modes\cbc">
+      <UniqueIdentifier>{ab489cb2-aa63-4718-a8f3-c3d7f8f1b9f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modes\cfb">
+      <UniqueIdentifier>{3a8f46f8-75c2-422f-a207-9aaa9bb90364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modes\ctr">
+      <UniqueIdentifier>{7f1fb466-854f-48bf-bdae-8972fb7f876a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modes\ecb">
+      <UniqueIdentifier>{cfd5f5c4-0a27-4d92-9fcf-b5c04c78819c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modes\f8">
+      <UniqueIdentifier>{3bf0533c-dca3-413a-b17d-ab5ab10dc5d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modes\lrw">
+      <UniqueIdentifier>{195a3519-bfcd-44d5-ad6a-cb2ee2c21455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modes\ofb">
+      <UniqueIdentifier>{6c37411d-39e8-4a3f-84fc-d948093e44df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modes\xts">
+      <UniqueIdentifier>{5b0434e5-0071-48d3-acbf-26cc1f615af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk">
+      <UniqueIdentifier>{cc25cbcd-40b6-48fb-ad3a-81e1dc6a410b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\asn1">
+      <UniqueIdentifier>{18cda2ca-249f-45fd-a63b-4c1e398023a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\asn1\der">
+      <UniqueIdentifier>{6f405774-3d0f-4368-86ec-f130290b493c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\asn1\der\bit">
+      <UniqueIdentifier>{8822c19c-25b3-4dc8-bd4f-60859c6f95a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\asn1\der\boolean">
+      <UniqueIdentifier>{85f8b48f-7953-40ce-9a50-e5b8645a5382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\asn1\der\choice">
+      <UniqueIdentifier>{aa3ba947-5f39-455b-bf0f-82429e18680b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\asn1\der\custom_type">
+      <UniqueIdentifier>{e91d07fd-a24d-44f7-baa5-0ce43903a12c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\asn1\der\general">
+      <UniqueIdentifier>{675cafb4-d570-4f51-b429-06719f3ebcf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\asn1\der\generalizedtime">
+      <UniqueIdentifier>{3c02d295-0f8d-4ae0-9740-25750c22adf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\asn1\der\ia5">
+      <UniqueIdentifier>{60558a13-499d-4cb4-a5c4-818eb811b6e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\asn1\der\integer">
+      <UniqueIdentifier>{90eaf679-f4a4-4048-bcc7-aeefe490d01e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\asn1\der\object_identifier">
+      <UniqueIdentifier>{a8efd0fa-b238-4bb5-b753-155cdd00962b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\asn1\der\octet">
+      <UniqueIdentifier>{39b38372-8a4b-4bca-a1ae-caf21b76e97e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\asn1\der\printable_string">
+      <UniqueIdentifier>{39f2648d-d0bf-446e-a6f5-d0b4433e6913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\asn1\der\sequence">
+      <UniqueIdentifier>{e5f2469d-ac4e-48bb-9f33-a17e85d09714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\asn1\der\set">
+      <UniqueIdentifier>{709916b4-a317-46bd-a7f4-32246515390d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\asn1\der\short_integer">
+      <UniqueIdentifier>{ec104687-d890-4d99-9de3-b18a33a89c13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\asn1\der\teletex_string">
+      <UniqueIdentifier>{fc151e30-2175-4548-bb55-9acd20188f17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\asn1\der\utctime">
+      <UniqueIdentifier>{6f3931f8-37b1-4d97-b0d4-54b95b11511a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\asn1\der\utf8">
+      <UniqueIdentifier>{2516cff1-77fd-4de3-b891-8dc4ea514d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\asn1\oid">
+      <UniqueIdentifier>{583e4719-6d37-401e-aa3c-b14f2c23ed18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\asn1\pkcs8">
+      <UniqueIdentifier>{ed5aac8b-f240-47a6-8999-1a29d3cfb17f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\asn1\x509">
+      <UniqueIdentifier>{7b7d52d4-d42e-4bd9-9cd7-dacdf4fccf52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\dh">
+      <UniqueIdentifier>{465eb4c2-4945-4b03-97eb-f73bbd9fe877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\dsa">
+      <UniqueIdentifier>{a3f9a004-6fe3-428d-941f-eab18c3dd31f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\ec25519">
+      <UniqueIdentifier>{4361fa36-feb0-4a34-97ae-25a3b25e6fed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\ecc">
+      <UniqueIdentifier>{d9068534-7054-4b3d-b6ab-22b528c10e27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\ed25519">
+      <UniqueIdentifier>{0e637620-8811-4017-9316-be96855c71dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\pkcs1">
+      <UniqueIdentifier>{6ce03f4e-37e5-4a02-8ab5-56cc70270582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\rsa">
+      <UniqueIdentifier>{64a49040-7e9d-49d3-ab23-7457d7d82985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pk\x25519">
+      <UniqueIdentifier>{ff4b1424-6f1a-4077-9ece-2ca0c191fe66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="prngs">
+      <UniqueIdentifier>{b3a4be47-3670-4180-a009-2ca3fe99a392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stream">
+      <UniqueIdentifier>{0d22baae-c3f5-4925-9fea-51b25bde4aa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stream\chacha">
+      <UniqueIdentifier>{99d3f3bf-115f-4f86-b55f-1c1990fc6626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stream\rabbit">
+      <UniqueIdentifier>{209ce225-cd17-41ca-9b3b-89c578410509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stream\rc4">
+      <UniqueIdentifier>{a21566d1-c311-4994-8adb-8c67f3c32f48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stream\salsa20">
+      <UniqueIdentifier>{dfd21335-d49e-4dcc-903e-4c303d941a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stream\sober128">
+      <UniqueIdentifier>{a79b3825-915b-4c2e-8f00-6728d17752e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stream\sosemanuk">
+      <UniqueIdentifier>{8e92331e-e796-4c3d-aa50-351b211e442e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ciphers\anubis.c">
+      <Filter>ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ciphers\blowfish.c">
+      <Filter>ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ciphers\camellia.c">
+      <Filter>ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ciphers\cast5.c">
+      <Filter>ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ciphers\des.c">
+      <Filter>ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ciphers\idea.c">
+      <Filter>ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ciphers\kasumi.c">
+      <Filter>ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ciphers\khazad.c">
+      <Filter>ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ciphers\kseed.c">
+      <Filter>ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ciphers\multi2.c">
+      <Filter>ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ciphers\noekeon.c">
+      <Filter>ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ciphers\rc2.c">
+      <Filter>ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ciphers\rc5.c">
+      <Filter>ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ciphers\rc6.c">
+      <Filter>ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ciphers\serpent.c">
+      <Filter>ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ciphers\skipjack.c">
+      <Filter>ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ciphers\tea.c">
+      <Filter>ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ciphers\xtea.c">
+      <Filter>ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ciphers\aes\aes.c">
+      <Filter>ciphers\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ciphers\aes\aes_tab.c">
+      <Filter>ciphers\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ciphers\safer\safer.c">
+      <Filter>ciphers\safer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ciphers\safer\safer_tab.c">
+      <Filter>ciphers\safer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ciphers\safer\saferp.c">
+      <Filter>ciphers\safer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ciphers\twofish\twofish.c">
+      <Filter>ciphers\twofish</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ciphers\twofish\twofish_tab.c">
+      <Filter>ciphers\twofish</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ccm\ccm_add_aad.c">
+      <Filter>encauth\ccm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ccm\ccm_add_nonce.c">
+      <Filter>encauth\ccm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ccm\ccm_done.c">
+      <Filter>encauth\ccm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ccm\ccm_init.c">
+      <Filter>encauth\ccm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ccm\ccm_memory.c">
+      <Filter>encauth\ccm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ccm\ccm_process.c">
+      <Filter>encauth\ccm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ccm\ccm_reset.c">
+      <Filter>encauth\ccm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ccm\ccm_test.c">
+      <Filter>encauth\ccm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\chachapoly\chacha20poly1305_add_aad.c">
+      <Filter>encauth\chachapoly</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\chachapoly\chacha20poly1305_decrypt.c">
+      <Filter>encauth\chachapoly</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\chachapoly\chacha20poly1305_done.c">
+      <Filter>encauth\chachapoly</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\chachapoly\chacha20poly1305_encrypt.c">
+      <Filter>encauth\chachapoly</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\chachapoly\chacha20poly1305_init.c">
+      <Filter>encauth\chachapoly</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\chachapoly\chacha20poly1305_memory.c">
+      <Filter>encauth\chachapoly</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\chachapoly\chacha20poly1305_setiv.c">
+      <Filter>encauth\chachapoly</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\chachapoly\chacha20poly1305_setiv_rfc7905.c">
+      <Filter>encauth\chachapoly</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\chachapoly\chacha20poly1305_test.c">
+      <Filter>encauth\chachapoly</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\eax\eax_addheader.c">
+      <Filter>encauth\eax</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\eax\eax_decrypt.c">
+      <Filter>encauth\eax</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\eax\eax_decrypt_verify_memory.c">
+      <Filter>encauth\eax</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\eax\eax_done.c">
+      <Filter>encauth\eax</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\eax\eax_encrypt.c">
+      <Filter>encauth\eax</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\eax\eax_encrypt_authenticate_memory.c">
+      <Filter>encauth\eax</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\eax\eax_init.c">
+      <Filter>encauth\eax</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\eax\eax_test.c">
+      <Filter>encauth\eax</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\gcm\gcm_add_aad.c">
+      <Filter>encauth\gcm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\gcm\gcm_add_iv.c">
+      <Filter>encauth\gcm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\gcm\gcm_done.c">
+      <Filter>encauth\gcm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\gcm\gcm_gf_mult.c">
+      <Filter>encauth\gcm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\gcm\gcm_init.c">
+      <Filter>encauth\gcm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\gcm\gcm_memory.c">
+      <Filter>encauth\gcm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\gcm\gcm_mult_h.c">
+      <Filter>encauth\gcm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\gcm\gcm_process.c">
+      <Filter>encauth\gcm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\gcm\gcm_reset.c">
+      <Filter>encauth\gcm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\gcm\gcm_test.c">
+      <Filter>encauth\gcm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ocb\ocb_decrypt.c">
+      <Filter>encauth\ocb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ocb\ocb_decrypt_verify_memory.c">
+      <Filter>encauth\ocb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ocb\ocb_done_decrypt.c">
+      <Filter>encauth\ocb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ocb\ocb_done_encrypt.c">
+      <Filter>encauth\ocb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ocb\ocb_encrypt.c">
+      <Filter>encauth\ocb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ocb\ocb_encrypt_authenticate_memory.c">
+      <Filter>encauth\ocb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ocb\ocb_init.c">
+      <Filter>encauth\ocb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ocb\ocb_ntz.c">
+      <Filter>encauth\ocb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ocb\ocb_shift_xor.c">
+      <Filter>encauth\ocb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ocb\ocb_test.c">
+      <Filter>encauth\ocb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ocb\s_ocb_done.c">
+      <Filter>encauth\ocb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ocb3\ocb3_add_aad.c">
+      <Filter>encauth\ocb3</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ocb3\ocb3_decrypt.c">
+      <Filter>encauth\ocb3</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ocb3\ocb3_decrypt_last.c">
+      <Filter>encauth\ocb3</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ocb3\ocb3_decrypt_verify_memory.c">
+      <Filter>encauth\ocb3</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ocb3\ocb3_done.c">
+      <Filter>encauth\ocb3</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ocb3\ocb3_encrypt.c">
+      <Filter>encauth\ocb3</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ocb3\ocb3_encrypt_authenticate_memory.c">
+      <Filter>encauth\ocb3</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ocb3\ocb3_encrypt_last.c">
+      <Filter>encauth\ocb3</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ocb3\ocb3_init.c">
+      <Filter>encauth\ocb3</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ocb3\ocb3_int_ntz.c">
+      <Filter>encauth\ocb3</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ocb3\ocb3_int_xor_blocks.c">
+      <Filter>encauth\ocb3</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encauth\ocb3\ocb3_test.c">
+      <Filter>encauth\ocb3</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\blake2b.c">
+      <Filter>hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\blake2s.c">
+      <Filter>hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\md2.c">
+      <Filter>hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\md4.c">
+      <Filter>hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\md5.c">
+      <Filter>hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\rmd128.c">
+      <Filter>hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\rmd160.c">
+      <Filter>hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\rmd256.c">
+      <Filter>hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\rmd320.c">
+      <Filter>hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\sha1.c">
+      <Filter>hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\sha3.c">
+      <Filter>hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\sha3_test.c">
+      <Filter>hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\tiger.c">
+      <Filter>hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\chc\chc.c">
+      <Filter>hashes\chc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\helper\hash_file.c">
+      <Filter>hashes\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\helper\hash_filehandle.c">
+      <Filter>hashes\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\helper\hash_memory.c">
+      <Filter>hashes\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\helper\hash_memory_multi.c">
+      <Filter>hashes\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\sha2\sha224.c">
+      <Filter>hashes\sha2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\sha2\sha256.c">
+      <Filter>hashes\sha2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\sha2\sha384.c">
+      <Filter>hashes\sha2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\sha2\sha512.c">
+      <Filter>hashes\sha2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\sha2\sha512_224.c">
+      <Filter>hashes\sha2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\sha2\sha512_256.c">
+      <Filter>hashes\sha2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\whirl\whirl.c">
+      <Filter>hashes\whirl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashes\whirl\whirltab.c">
+      <Filter>hashes\whirl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\blake2\blake2bmac.c">
+      <Filter>mac\blake2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\blake2\blake2bmac_file.c">
+      <Filter>mac\blake2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\blake2\blake2bmac_memory.c">
+      <Filter>mac\blake2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\blake2\blake2bmac_memory_multi.c">
+      <Filter>mac\blake2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\blake2\blake2bmac_test.c">
+      <Filter>mac\blake2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\blake2\blake2smac.c">
+      <Filter>mac\blake2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\blake2\blake2smac_file.c">
+      <Filter>mac\blake2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\blake2\blake2smac_memory.c">
+      <Filter>mac\blake2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\blake2\blake2smac_memory_multi.c">
+      <Filter>mac\blake2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\blake2\blake2smac_test.c">
+      <Filter>mac\blake2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\f9\f9_done.c">
+      <Filter>mac\f9</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\f9\f9_file.c">
+      <Filter>mac\f9</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\f9\f9_init.c">
+      <Filter>mac\f9</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\f9\f9_memory.c">
+      <Filter>mac\f9</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\f9\f9_memory_multi.c">
+      <Filter>mac\f9</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\f9\f9_process.c">
+      <Filter>mac\f9</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\f9\f9_test.c">
+      <Filter>mac\f9</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\hmac\hmac_done.c">
+      <Filter>mac\hmac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\hmac\hmac_file.c">
+      <Filter>mac\hmac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\hmac\hmac_init.c">
+      <Filter>mac\hmac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\hmac\hmac_memory.c">
+      <Filter>mac\hmac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\hmac\hmac_memory_multi.c">
+      <Filter>mac\hmac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\hmac\hmac_process.c">
+      <Filter>mac\hmac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\hmac\hmac_test.c">
+      <Filter>mac\hmac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\omac\omac_done.c">
+      <Filter>mac\omac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\omac\omac_file.c">
+      <Filter>mac\omac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\omac\omac_init.c">
+      <Filter>mac\omac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\omac\omac_memory.c">
+      <Filter>mac\omac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\omac\omac_memory_multi.c">
+      <Filter>mac\omac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\omac\omac_process.c">
+      <Filter>mac\omac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\omac\omac_test.c">
+      <Filter>mac\omac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\pelican\pelican.c">
+      <Filter>mac\pelican</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\pelican\pelican_memory.c">
+      <Filter>mac\pelican</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\pelican\pelican_test.c">
+      <Filter>mac\pelican</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\pmac\pmac_done.c">
+      <Filter>mac\pmac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\pmac\pmac_file.c">
+      <Filter>mac\pmac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\pmac\pmac_init.c">
+      <Filter>mac\pmac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\pmac\pmac_memory.c">
+      <Filter>mac\pmac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\pmac\pmac_memory_multi.c">
+      <Filter>mac\pmac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\pmac\pmac_ntz.c">
+      <Filter>mac\pmac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\pmac\pmac_process.c">
+      <Filter>mac\pmac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\pmac\pmac_shift_xor.c">
+      <Filter>mac\pmac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\pmac\pmac_test.c">
+      <Filter>mac\pmac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\poly1305\poly1305.c">
+      <Filter>mac\poly1305</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\poly1305\poly1305_file.c">
+      <Filter>mac\poly1305</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\poly1305\poly1305_memory.c">
+      <Filter>mac\poly1305</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\poly1305\poly1305_memory_multi.c">
+      <Filter>mac\poly1305</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\poly1305\poly1305_test.c">
+      <Filter>mac\poly1305</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\xcbc\xcbc_done.c">
+      <Filter>mac\xcbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\xcbc\xcbc_file.c">
+      <Filter>mac\xcbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\xcbc\xcbc_init.c">
+      <Filter>mac\xcbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\xcbc\xcbc_memory.c">
+      <Filter>mac\xcbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\xcbc\xcbc_memory_multi.c">
+      <Filter>mac\xcbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\xcbc\xcbc_process.c">
+      <Filter>mac\xcbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mac\xcbc\xcbc_test.c">
+      <Filter>mac\xcbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\gmp_desc.c">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\ltm_desc.c">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\multi.c">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\radix_to_bin.c">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\rand_bn.c">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\rand_prime.c">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\tfm_desc.c">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\fp\ltc_ecc_fp_mulmod.c">
+      <Filter>math\fp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\adler32.c">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\burn_stack.c">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\compare_testvector.c">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\copy_or_zeromem.c">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crc32.c">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\error_to_string.c">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\mem_neq.c">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\zeromem.c">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\base16\base16_decode.c">
+      <Filter>misc\base16</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\base16\base16_encode.c">
+      <Filter>misc\base16</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\base32\base32_decode.c">
+      <Filter>misc\base32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\base32\base32_encode.c">
+      <Filter>misc\base32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\base64\base64_decode.c">
+      <Filter>misc\base64</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\base64\base64_encode.c">
+      <Filter>misc\base64</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\bcrypt\bcrypt.c">
+      <Filter>misc\bcrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_argchk.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_cipher_descriptor.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_cipher_is_valid.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_constants.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_find_cipher.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_find_cipher_any.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_find_cipher_id.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_find_hash.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_find_hash_any.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_find_hash_id.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_find_hash_oid.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_find_prng.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_fsa.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_hash_descriptor.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_hash_is_valid.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_inits.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_ltc_mp_descriptor.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_prng_descriptor.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_prng_is_valid.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_prng_rng_descriptor.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_register_all_ciphers.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_register_all_hashes.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_register_all_prngs.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_register_cipher.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_register_hash.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_register_prng.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_sizes.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_unregister_cipher.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_unregister_hash.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\crypt\crypt_unregister_prng.c">
+      <Filter>misc\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\hkdf\hkdf.c">
+      <Filter>misc\hkdf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\hkdf\hkdf_test.c">
+      <Filter>misc\hkdf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\padding\padding_depad.c">
+      <Filter>misc\padding</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\padding\padding_pad.c">
+      <Filter>misc\padding</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\pbes\pbes.c">
+      <Filter>misc\pbes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\pbes\pbes1.c">
+      <Filter>misc\pbes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\pbes\pbes2.c">
+      <Filter>misc\pbes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\pkcs12\pkcs12_kdf.c">
+      <Filter>misc\pkcs12</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\pkcs12\pkcs12_utf8_to_utf16.c">
+      <Filter>misc\pkcs12</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\pkcs5\pkcs_5_1.c">
+      <Filter>misc\pkcs5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\pkcs5\pkcs_5_2.c">
+      <Filter>misc\pkcs5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\pkcs5\pkcs_5_test.c">
+      <Filter>misc\pkcs5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\ssh\ssh_decode_sequence_multi.c">
+      <Filter>misc\ssh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\ssh\ssh_encode_sequence_multi.c">
+      <Filter>misc\ssh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\cbc\cbc_decrypt.c">
+      <Filter>modes\cbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\cbc\cbc_done.c">
+      <Filter>modes\cbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\cbc\cbc_encrypt.c">
+      <Filter>modes\cbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\cbc\cbc_getiv.c">
+      <Filter>modes\cbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\cbc\cbc_setiv.c">
+      <Filter>modes\cbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\cbc\cbc_start.c">
+      <Filter>modes\cbc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\cfb\cfb_decrypt.c">
+      <Filter>modes\cfb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\cfb\cfb_done.c">
+      <Filter>modes\cfb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\cfb\cfb_encrypt.c">
+      <Filter>modes\cfb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\cfb\cfb_getiv.c">
+      <Filter>modes\cfb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\cfb\cfb_setiv.c">
+      <Filter>modes\cfb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\cfb\cfb_start.c">
+      <Filter>modes\cfb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\ctr\ctr_decrypt.c">
+      <Filter>modes\ctr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\ctr\ctr_done.c">
+      <Filter>modes\ctr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\ctr\ctr_encrypt.c">
+      <Filter>modes\ctr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\ctr\ctr_getiv.c">
+      <Filter>modes\ctr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\ctr\ctr_setiv.c">
+      <Filter>modes\ctr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\ctr\ctr_start.c">
+      <Filter>modes\ctr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\ctr\ctr_test.c">
+      <Filter>modes\ctr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\ecb\ecb_decrypt.c">
+      <Filter>modes\ecb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\ecb\ecb_done.c">
+      <Filter>modes\ecb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\ecb\ecb_encrypt.c">
+      <Filter>modes\ecb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\ecb\ecb_start.c">
+      <Filter>modes\ecb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\f8\f8_decrypt.c">
+      <Filter>modes\f8</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\f8\f8_done.c">
+      <Filter>modes\f8</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\f8\f8_encrypt.c">
+      <Filter>modes\f8</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\f8\f8_getiv.c">
+      <Filter>modes\f8</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\f8\f8_setiv.c">
+      <Filter>modes\f8</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\f8\f8_start.c">
+      <Filter>modes\f8</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\f8\f8_test_mode.c">
+      <Filter>modes\f8</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\lrw\lrw_decrypt.c">
+      <Filter>modes\lrw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\lrw\lrw_done.c">
+      <Filter>modes\lrw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\lrw\lrw_encrypt.c">
+      <Filter>modes\lrw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\lrw\lrw_getiv.c">
+      <Filter>modes\lrw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\lrw\lrw_process.c">
+      <Filter>modes\lrw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\lrw\lrw_setiv.c">
+      <Filter>modes\lrw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\lrw\lrw_start.c">
+      <Filter>modes\lrw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\lrw\lrw_test.c">
+      <Filter>modes\lrw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\ofb\ofb_decrypt.c">
+      <Filter>modes\ofb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\ofb\ofb_done.c">
+      <Filter>modes\ofb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\ofb\ofb_encrypt.c">
+      <Filter>modes\ofb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\ofb\ofb_getiv.c">
+      <Filter>modes\ofb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\ofb\ofb_setiv.c">
+      <Filter>modes\ofb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\ofb\ofb_start.c">
+      <Filter>modes\ofb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\xts\xts_decrypt.c">
+      <Filter>modes\xts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\xts\xts_done.c">
+      <Filter>modes\xts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\xts\xts_encrypt.c">
+      <Filter>modes\xts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\xts\xts_init.c">
+      <Filter>modes\xts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\xts\xts_mult_x.c">
+      <Filter>modes\xts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modes\xts\xts_test.c">
+      <Filter>modes\xts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\bit\der_decode_bit_string.c">
+      <Filter>pk\asn1\der\bit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\bit\der_decode_raw_bit_string.c">
+      <Filter>pk\asn1\der\bit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\bit\der_encode_bit_string.c">
+      <Filter>pk\asn1\der\bit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\bit\der_encode_raw_bit_string.c">
+      <Filter>pk\asn1\der\bit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\bit\der_length_bit_string.c">
+      <Filter>pk\asn1\der\bit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\boolean\der_decode_boolean.c">
+      <Filter>pk\asn1\der\boolean</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\boolean\der_encode_boolean.c">
+      <Filter>pk\asn1\der\boolean</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\boolean\der_length_boolean.c">
+      <Filter>pk\asn1\der\boolean</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\choice\der_decode_choice.c">
+      <Filter>pk\asn1\der\choice</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\custom_type\der_decode_custom_type.c">
+      <Filter>pk\asn1\der\custom_type</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\custom_type\der_encode_custom_type.c">
+      <Filter>pk\asn1\der\custom_type</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\custom_type\der_length_custom_type.c">
+      <Filter>pk\asn1\der\custom_type</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\general\der_asn1_maps.c">
+      <Filter>pk\asn1\der\general</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\general\der_decode_asn1_identifier.c">
+      <Filter>pk\asn1\der\general</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\general\der_decode_asn1_length.c">
+      <Filter>pk\asn1\der\general</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\general\der_encode_asn1_identifier.c">
+      <Filter>pk\asn1\der\general</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\general\der_encode_asn1_length.c">
+      <Filter>pk\asn1\der\general</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\general\der_length_asn1_identifier.c">
+      <Filter>pk\asn1\der\general</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\general\der_length_asn1_length.c">
+      <Filter>pk\asn1\der\general</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\generalizedtime\der_decode_generalizedtime.c">
+      <Filter>pk\asn1\der\generalizedtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\generalizedtime\der_encode_generalizedtime.c">
+      <Filter>pk\asn1\der\generalizedtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\generalizedtime\der_length_generalizedtime.c">
+      <Filter>pk\asn1\der\generalizedtime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\ia5\der_decode_ia5_string.c">
+      <Filter>pk\asn1\der\ia5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\ia5\der_encode_ia5_string.c">
+      <Filter>pk\asn1\der\ia5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\ia5\der_length_ia5_string.c">
+      <Filter>pk\asn1\der\ia5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\integer\der_decode_integer.c">
+      <Filter>pk\asn1\der\integer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\integer\der_encode_integer.c">
+      <Filter>pk\asn1\der\integer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\integer\der_length_integer.c">
+      <Filter>pk\asn1\der\integer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\object_identifier\der_decode_object_identifier.c">
+      <Filter>pk\asn1\der\object_identifier</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\object_identifier\der_encode_object_identifier.c">
+      <Filter>pk\asn1\der\object_identifier</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\object_identifier\der_length_object_identifier.c">
+      <Filter>pk\asn1\der\object_identifier</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\octet\der_decode_octet_string.c">
+      <Filter>pk\asn1\der\octet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\octet\der_encode_octet_string.c">
+      <Filter>pk\asn1\der\octet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\octet\der_length_octet_string.c">
+      <Filter>pk\asn1\der\octet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\printable_string\der_decode_printable_string.c">
+      <Filter>pk\asn1\der\printable_string</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\printable_string\der_encode_printable_string.c">
+      <Filter>pk\asn1\der\printable_string</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\printable_string\der_length_printable_string.c">
+      <Filter>pk\asn1\der\printable_string</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\sequence\der_decode_sequence_ex.c">
+      <Filter>pk\asn1\der\sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\sequence\der_decode_sequence_flexi.c">
+      <Filter>pk\asn1\der\sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\sequence\der_decode_sequence_multi.c">
+      <Filter>pk\asn1\der\sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\sequence\der_encode_sequence_ex.c">
+      <Filter>pk\asn1\der\sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\sequence\der_encode_sequence_multi.c">
+      <Filter>pk\asn1\der\sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\sequence\der_length_sequence.c">
+      <Filter>pk\asn1\der\sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\sequence\der_sequence_free.c">
+      <Filter>pk\asn1\der\sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\sequence\der_sequence_shrink.c">
+      <Filter>pk\asn1\der\sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\set\der_encode_set.c">
+      <Filter>pk\asn1\der\set</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\set\der_encode_setof.c">
+      <Filter>pk\asn1\der\set</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\short_integer\der_decode_short_integer.c">
+      <Filter>pk\asn1\der\short_integer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\short_integer\der_encode_short_integer.c">
+      <Filter>pk\asn1\der\short_integer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\short_integer\der_length_short_integer.c">
+      <Filter>pk\asn1\der\short_integer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\teletex_string\der_decode_teletex_string.c">
+      <Filter>pk\asn1\der\teletex_string</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\teletex_string\der_length_teletex_string.c">
+      <Filter>pk\asn1\der\teletex_string</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\utctime\der_decode_utctime.c">
+      <Filter>pk\asn1\der\utctime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\utctime\der_encode_utctime.c">
+      <Filter>pk\asn1\der\utctime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\utctime\der_length_utctime.c">
+      <Filter>pk\asn1\der\utctime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\utf8\der_decode_utf8_string.c">
+      <Filter>pk\asn1\der\utf8</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\utf8\der_encode_utf8_string.c">
+      <Filter>pk\asn1\der\utf8</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\der\utf8\der_length_utf8_string.c">
+      <Filter>pk\asn1\der\utf8</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\oid\pk_get_oid.c">
+      <Filter>pk\asn1\oid</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\oid\pk_oid_cmp.c">
+      <Filter>pk\asn1\oid</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\oid\pk_oid_str.c">
+      <Filter>pk\asn1\oid</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\pkcs8\pkcs8_decode_flexi.c">
+      <Filter>pk\asn1\pkcs8</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\x509\x509_decode_public_key_from_certificate.c">
+      <Filter>pk\asn1\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\x509\x509_decode_subject_public_key_info.c">
+      <Filter>pk\asn1\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\asn1\x509\x509_encode_subject_public_key_info.c">
+      <Filter>pk\asn1\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\dh\dh.c">
+      <Filter>pk\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\dh\dh_check_pubkey.c">
+      <Filter>pk\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\dh\dh_export.c">
+      <Filter>pk\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\dh\dh_export_key.c">
+      <Filter>pk\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\dh\dh_free.c">
+      <Filter>pk\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\dh\dh_generate_key.c">
+      <Filter>pk\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\dh\dh_import.c">
+      <Filter>pk\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\dh\dh_set.c">
+      <Filter>pk\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\dh\dh_set_pg_dhparam.c">
+      <Filter>pk\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\dh\dh_shared_secret.c">
+      <Filter>pk\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\dsa\dsa_decrypt_key.c">
+      <Filter>pk\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\dsa\dsa_encrypt_key.c">
+      <Filter>pk\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\dsa\dsa_export.c">
+      <Filter>pk\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\dsa\dsa_free.c">
+      <Filter>pk\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\dsa\dsa_generate_key.c">
+      <Filter>pk\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\dsa\dsa_generate_pqg.c">
+      <Filter>pk\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\dsa\dsa_import.c">
+      <Filter>pk\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\dsa\dsa_make_key.c">
+      <Filter>pk\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\dsa\dsa_set.c">
+      <Filter>pk\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\dsa\dsa_set_pqg_dsaparam.c">
+      <Filter>pk\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\dsa\dsa_shared_secret.c">
+      <Filter>pk\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\dsa\dsa_sign_hash.c">
+      <Filter>pk\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\dsa\dsa_verify_hash.c">
+      <Filter>pk\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\dsa\dsa_verify_key.c">
+      <Filter>pk\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ec25519\ec25519_crypto_ctx.c">
+      <Filter>pk\ec25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ec25519\ec25519_export.c">
+      <Filter>pk\ec25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ec25519\ec25519_import_pkcs8.c">
+      <Filter>pk\ec25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ec25519\tweetnacl.c">
+      <Filter>pk\ec25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_ansi_x963_export.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_ansi_x963_import.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_decrypt_key.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_encrypt_key.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_export.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_export_openssl.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_find_curve.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_free.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_get_key.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_get_oid_str.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_get_size.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_import.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_import_openssl.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_import_pkcs8.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_import_x509.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_make_key.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_recover_key.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_set_curve.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_set_curve_internal.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_set_key.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_shared_secret.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_sign_hash.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_sizes.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_ssh_ecdsa_encode_name.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ecc_verify_hash.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ltc_ecc_export_point.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ltc_ecc_import_point.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ltc_ecc_is_point.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ltc_ecc_is_point_at_infinity.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ltc_ecc_map.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ltc_ecc_mul2add.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ltc_ecc_mulmod.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ltc_ecc_mulmod_timing.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ltc_ecc_points.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ltc_ecc_projective_add_point.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ltc_ecc_projective_dbl_point.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ecc\ltc_ecc_verify_key.c">
+      <Filter>pk\ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ed25519\ed25519_export.c">
+      <Filter>pk\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ed25519\ed25519_import.c">
+      <Filter>pk\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ed25519\ed25519_import_pkcs8.c">
+      <Filter>pk\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ed25519\ed25519_import_raw.c">
+      <Filter>pk\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ed25519\ed25519_import_x509.c">
+      <Filter>pk\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ed25519\ed25519_make_key.c">
+      <Filter>pk\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ed25519\ed25519_sign.c">
+      <Filter>pk\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\ed25519\ed25519_verify.c">
+      <Filter>pk\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\pkcs1\pkcs_1_i2osp.c">
+      <Filter>pk\pkcs1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\pkcs1\pkcs_1_mgf1.c">
+      <Filter>pk\pkcs1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\pkcs1\pkcs_1_oaep_decode.c">
+      <Filter>pk\pkcs1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\pkcs1\pkcs_1_oaep_encode.c">
+      <Filter>pk\pkcs1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\pkcs1\pkcs_1_os2ip.c">
+      <Filter>pk\pkcs1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\pkcs1\pkcs_1_pss_decode.c">
+      <Filter>pk\pkcs1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\pkcs1\pkcs_1_pss_encode.c">
+      <Filter>pk\pkcs1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\pkcs1\pkcs_1_v1_5_decode.c">
+      <Filter>pk\pkcs1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\pkcs1\pkcs_1_v1_5_encode.c">
+      <Filter>pk\pkcs1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\rsa\rsa_decrypt_key.c">
+      <Filter>pk\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\rsa\rsa_encrypt_key.c">
+      <Filter>pk\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\rsa\rsa_export.c">
+      <Filter>pk\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\rsa\rsa_exptmod.c">
+      <Filter>pk\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\rsa\rsa_get_size.c">
+      <Filter>pk\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\rsa\rsa_import.c">
+      <Filter>pk\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\rsa\rsa_import_pkcs8.c">
+      <Filter>pk\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\rsa\rsa_import_x509.c">
+      <Filter>pk\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\rsa\rsa_key.c">
+      <Filter>pk\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\rsa\rsa_make_key.c">
+      <Filter>pk\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\rsa\rsa_set.c">
+      <Filter>pk\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\rsa\rsa_sign_hash.c">
+      <Filter>pk\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\rsa\rsa_sign_saltlen_get.c">
+      <Filter>pk\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\rsa\rsa_verify_hash.c">
+      <Filter>pk\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\x25519\x25519_export.c">
+      <Filter>pk\x25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\x25519\x25519_import.c">
+      <Filter>pk\x25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\x25519\x25519_import_pkcs8.c">
+      <Filter>pk\x25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\x25519\x25519_import_raw.c">
+      <Filter>pk\x25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\x25519\x25519_import_x509.c">
+      <Filter>pk\x25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\x25519\x25519_make_key.c">
+      <Filter>pk\x25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pk\x25519\x25519_shared_secret.c">
+      <Filter>pk\x25519</Filter>
+    </ClCompile>
+    <ClCompile Include="src\prngs\chacha20.c">
+      <Filter>prngs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\prngs\fortuna.c">
+      <Filter>prngs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\prngs\rc4.c">
+      <Filter>prngs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\prngs\rng_get_bytes.c">
+      <Filter>prngs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\prngs\rng_make_prng.c">
+      <Filter>prngs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\prngs\sober128.c">
+      <Filter>prngs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\prngs\sprng.c">
+      <Filter>prngs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\prngs\yarrow.c">
+      <Filter>prngs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\chacha\chacha_crypt.c">
+      <Filter>stream\chacha</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\chacha\chacha_done.c">
+      <Filter>stream\chacha</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\chacha\chacha_ivctr32.c">
+      <Filter>stream\chacha</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\chacha\chacha_ivctr64.c">
+      <Filter>stream\chacha</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\chacha\chacha_keystream.c">
+      <Filter>stream\chacha</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\chacha\chacha_memory.c">
+      <Filter>stream\chacha</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\chacha\chacha_setup.c">
+      <Filter>stream\chacha</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\chacha\chacha_test.c">
+      <Filter>stream\chacha</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\rabbit\rabbit.c">
+      <Filter>stream\rabbit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\rabbit\rabbit_memory.c">
+      <Filter>stream\rabbit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\rc4\rc4_stream.c">
+      <Filter>stream\rc4</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\rc4\rc4_stream_memory.c">
+      <Filter>stream\rc4</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\rc4\rc4_test.c">
+      <Filter>stream\rc4</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\salsa20\salsa20_crypt.c">
+      <Filter>stream\salsa20</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\salsa20\salsa20_done.c">
+      <Filter>stream\salsa20</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\salsa20\salsa20_ivctr64.c">
+      <Filter>stream\salsa20</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\salsa20\salsa20_keystream.c">
+      <Filter>stream\salsa20</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\salsa20\salsa20_memory.c">
+      <Filter>stream\salsa20</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\salsa20\salsa20_setup.c">
+      <Filter>stream\salsa20</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\salsa20\salsa20_test.c">
+      <Filter>stream\salsa20</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\salsa20\xsalsa20_memory.c">
+      <Filter>stream\salsa20</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\salsa20\xsalsa20_setup.c">
+      <Filter>stream\salsa20</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\salsa20\xsalsa20_test.c">
+      <Filter>stream\salsa20</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\sober128\sober128_stream.c">
+      <Filter>stream\sober128</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\sober128\sober128_stream_memory.c">
+      <Filter>stream\sober128</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\sober128\sober128_test.c">
+      <Filter>stream\sober128</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\sober128\sober128tab.c">
+      <Filter>stream\sober128</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\sosemanuk\sosemanuk.c">
+      <Filter>stream\sosemanuk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\sosemanuk\sosemanuk_memory.c">
+      <Filter>stream\sosemanuk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\sosemanuk\sosemanuk_test.c">
+      <Filter>stream\sosemanuk</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\headers\tomcrypt.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\tomcrypt_argchk.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\tomcrypt_cfg.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\tomcrypt_cipher.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\tomcrypt_custom.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\tomcrypt_hash.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\tomcrypt_mac.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\tomcrypt_macros.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\tomcrypt_math.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\tomcrypt_misc.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\tomcrypt_pk.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\tomcrypt_pkcs.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\tomcrypt_private.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\tomcrypt_prng.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
